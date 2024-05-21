@@ -38,10 +38,7 @@ pipeline {
                 /*
                 withSonarQubeEnv('SonarQube-Server'){
                     sh '''
-                        ./mvnw sonar:sonar \
-                        -Dsonar.projectKey=guestbook \
-                        -Dsonar.host.url=http://192.168.56.143:9000 \
-                        -Dsonar.login=21193ff67973f0efc068ac33ce547e3da8c671b7
+                        ./mvnw sonar:sonar 
                     '''
                 }
                 */
